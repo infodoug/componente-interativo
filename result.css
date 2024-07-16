@@ -1,0 +1,46 @@
+
+.result-card {
+  border-radius: 20px;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.result-card h1 {
+  color: hsl(241, 100%, 89%);
+}
+.result-card h2, #result-num {
+  color: hsl(0, 0%, 100%);
+}
+.result-card h2 {
+    font-size: 30px;
+}
+.result-card p {
+  font-size: 18px;
+  color: hsl(241, 100%, 89%);
+}
+.result-area {
+  height: 100%;
+  padding: 40px 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.result-circle {
+  height: 180px;
+  width: 180px;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#result-num {
+  font-size: 50px;
+  font-weight: 800;
+}
